@@ -10,10 +10,7 @@ export class RecipeItemComponent implements OnInit {
   //  dışarıdan veri alıyoruz
   //  recipe-list component.html de ki recipe ile iletişimde
   @Input() recipe: Recipe;
- @Input() index:number
-
+  @Input() index: number;
 
   ngOnInit(): void {}
-
-  
 }
